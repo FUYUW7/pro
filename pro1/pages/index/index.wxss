@@ -1,0 +1,39 @@
+/**index.wxss**/
+.swiper{
+  width: 730rpx;
+  height: 300rpx;
+  background-color: red;
+  margin-left: 10rpx;
+}
+.swiper image{
+  width: 730rpx;
+}
+.news{
+  width: 730rpx;
+  height: 250rpx;
+  background-color: #ededed;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border-bottom: solid 1rpx red;
+}
+.title{
+  float: left;
+   margin-top: 10rpx;
+  margin-left: 10rpx;
+  width: 600rpx;
+  height: 150rpx;
+  /* background-color: blue; */
+}
+.cover{
+  width: 100rpx;
+  height: 100rpx;
+  float: right;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+.from{
+  clear: both;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}

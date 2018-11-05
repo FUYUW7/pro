@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class='swiper'>
+  <swiper>
+    <swiper-item wx:for="{{datainfo.swiper}}" wx:for-item="item"><image src='{{item}}'></image></swiper-item>
+  </swiper>
+</view>
+
+<view class='news' wx:for="{{datainfo.data}}" wx:for-item="item">
+  <view>
+    <text class='title'>{{item.title}}</text>
+    <image src='{{item.logo}}' class='cover'></image>
+  </view>
+  <view class='from'>来源</view>
+</view>

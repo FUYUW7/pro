@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "腾讯新闻",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#17F512",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+      "pagePath":"pages/index/index",
+      "text":"推荐",
+      "selectedIconPath":"/pages/tabBar/1.jpg"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"视频",
+        "selectedIconPath":"/pages/tabBar/2.jpg"
+      },
+      {
+        "pagePath":"pages/index/index",
+        "text":"本地",
+        "selectedIconPath":"/pages/tabBar/3.jpg"
+      },{
+        "pagePath":"pages/index/index",
+        "text":"我的",
+        "selectedIconPath":"/pages/tabBar/4.jpg"
+      }
+    ]
+}
+}
